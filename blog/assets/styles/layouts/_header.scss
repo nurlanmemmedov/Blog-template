@@ -1,0 +1,22 @@
+header{
+    padding: 30px 0;
+    color: $color-dark;
+    font-family: $font-playfair;
+    nav{
+        ul{
+            li{
+                margin-left: 30px;
+                a{
+                    &:hover{
+                        color: red !important;
+                    }
+                }
+            }
+        }
+    }
+}
+.navbar{
+    .container{
+        padding: 0 15px !important;
+    }
+}

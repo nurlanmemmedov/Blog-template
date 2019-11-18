@@ -1,0 +1,109 @@
+.container{
+    .content-area{
+        margin: calc(10% + 20px) 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .details{
+        .head{
+            color: $color-h;
+            h1{
+                font-weight: 700;
+                font-size: 2.2rem;
+                a{
+                    text-decoration: none;
+                    color: $color-h;
+                    transition: .3s ease;
+                    &:hover{
+                        color: red;
+                    }
+                }
+            }
+        }
+        .desc{
+            margin: 70px 0;
+            p{
+
+            }
+        }
+        .tools{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;;
+            .more{
+                a{
+                    text-decoration: none;
+                    color: $color-h;
+                    transition: .3s ease;
+                    i{
+                        opacity: 0;
+                        transition: .4s all ease;
+                        color: red !important;
+
+                    }
+                    &:hover{
+                        color: red;
+                    }
+                    &:hover i{
+                        opacity: 1;
+                        transform: translateX(10px)
+                    }
+
+                }
+            }
+            .icons{
+                a{
+                    text-decoration: none;
+                    i{
+                        color: $color-p;
+                        margin: 0 8px;                            
+                    }
+                    .fa-facebook-f:hover{
+                        color: #3b5998;
+                    }
+                    .fa-instagram:hover{
+                        color: #e1306c;
+                    }
+                    .fa-linkedin-in:hover{
+                        color: #8d6cab;
+                    }
+                    .fa-twitter:hover{
+                        color: #1da1f2;
+                    }
+                }
+            }
+        }
+    }
+    }
+    .img-area{
+        position: relative !important;
+        &::before{
+            content: '';
+            position: absolute;
+            bottom: 10%;
+            left: 10%;
+            width: calc(100% - 45px);
+            height: 100%;
+            background-color: transparent;
+            border: 10px solid $color-shadow;
+        }
+        a{
+           .img{
+            width: calc(100% - 25px);
+            height: 450px;
+            overflow: hidden;
+            
+        img{
+            object-fit: cover;
+            transform: scale(1.1);
+            transition: .5s all ease;
+            width: 100%;
+            height: 100%;
+            &:hover{
+                transform: scale(1)
+            }
+        }
+    }
+        }
+    }   
+}

@@ -1,0 +1,43 @@
+.message-area{
+    .message{
+        text-align: center;
+        h3{
+
+        }
+        form{
+            width: 100%;
+        .full-name{
+            padding: 20px 0; 
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .name{
+                margin: 12px 0;
+                input{
+                    width: 100%;
+                    padding: 5px 15px;
+                }
+            }
+            .surname{
+                margin: 12px 0;
+                input{
+                    width: 100%;
+                    padding: 5px 15px;
+                }
+            }
+        }
+        .text{
+        textarea{
+            width: 100%;
+            padding: 5px 15px;
+        }
+    }
+    .submit{
+        display: flex;
+        button{
+            padding: 6px 15px;
+            margin-top: 20px;
+        }
+    }
+    }}
+}

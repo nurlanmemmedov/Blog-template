@@ -1,0 +1,13 @@
+.button{
+border: transparent;
+background: $button-color;
+color: #fff;
+cursor: pointer;
+border-radius: 6px;
+font-size: 18px;
+font-weight: 700;
+transition: .4s ease;
+&:hover{
+    background-color: #610002;
+}
+}

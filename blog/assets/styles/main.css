@@ -1,0 +1,537 @@
+body {
+  color: #555;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.75em;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0 !important;
+}
+
+h1, h2, h3 {
+  font-family: "Playfair Display", serif;
+  color: #3c3c3c;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+
+.section-padding {
+  padding: 50px 0;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+footer #foot-section {
+  padding: 100px 0;
+}
+
+footer #foot-section .container .foot .head {
+  text-align: center;
+}
+
+footer #foot-section .container .foot .head h1 {
+  font-size: 1.75rem;
+}
+
+footer #foot-section .container .foot .subscribe form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer #foot-section .container .foot .subscribe form .mail {
+  width: 100%;
+  max-width: 520px;
+  padding: 8px;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 6px;
+}
+
+footer #foot-section .container .foot .subscribe form .subs {
+  width: 100%;
+  max-width: 520px;
+  margin-top: 10px;
+  padding: 10px 10px;
+}
+
+footer #foot-section .container .foot .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+}
+
+footer #foot-section .container .foot .contact a {
+  text-decoration: none;
+  color: #555;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+footer #foot-section .container .foot .contact a:hover {
+  color: red;
+}
+
+footer #foot-section .container .foot .contact a i {
+  padding: 0 6px;
+}
+
+footer #foot-section .container .foot .contact a .fa-facebook-f {
+  color: #3b5998;
+}
+
+footer #foot-section .container .foot .contact a .fa-instagram {
+  color: #e1306c;
+}
+
+footer #foot-section .container .foot .contact a .fa-linkedin-in {
+  color: #8d6cab;
+}
+
+footer #foot-section .container .foot .contact a .fa-twitter {
+  color: #1da1f2;
+}
+
+header {
+  padding: 30px 0;
+  color: #333;
+  font-family: "Playfair Display", serif;
+}
+
+header nav ul li {
+  margin-left: 30px;
+}
+
+header nav ul li a:hover {
+  color: red !important;
+}
+
+.navbar .container {
+  padding: 0 15px !important;
+}
+
+.owl-carousel .container {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.owl-carousel .container .content-area .details {
+  padding-left: 40px;
+}
+
+.load .container .load-button {
+  padding: 12px 40px;
+  margin-bottom: 100px;
+}
+
+.load .container .load-less {
+  background-color: orange;
+}
+
+.home-2 {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.home-3 {
+  background-color: yellow;
+}
+
+#about {
+  padding-bottom: 100px;
+}
+
+#about .container .description h1 {
+  margin-bottom: 50px;
+}
+
+#about .container .description img {
+  width: 100%;
+  padding: 40px 0;
+}
+
+#contact {
+  padding-bottom: 150px;
+}
+
+#contact .container .content h1 {
+  margin-bottom: 40px;
+}
+
+#contact .container .content p {
+  margin-bottom: 80px;
+}
+
+#contact .contact-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+#contact .contact-area .us .detail {
+  border-radius: 8px;
+  text-align: center;
+  padding: 20px;
+  background-color: #a70003;
+  color: white;
+}
+
+#contact .contact-area .us .detail h1 {
+  color: white !important;
+}
+
+#head .head-title {
+  text-align: center;
+}
+
+#head .head-title h1 span {
+  color: #a70003;
+}
+
+#blog-detail {
+  padding-bottom: 100px;
+}
+
+#blog-detail .container .description h1 {
+  margin-bottom: 50px;
+}
+
+#blog-detail .container .description img {
+  width: 100%;
+}
+
+#blog-detail .container .description img {
+  width: 100%;
+  padding: 40px 0;
+}
+
+#authors {
+  padding-bottom: 100px;
+}
+
+#authors .author {
+  height: 355px;
+  position: relative;
+  margin: 12px 0;
+  overflow: hidden;
+}
+
+#authors .author img {
+  width: 100%;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+#authors .author:hover img {
+  -webkit-transform: scale(1.06);
+          transform: scale(1.06);
+}
+
+#authors .author:hover .content {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  opacity: 1;
+}
+
+#authors .author .content {
+  opacity: 0;
+  position: absolute;
+  content: '';
+  right: 0;
+  bottom: 10px;
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.7);
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+#authors .author .content .details {
+  padding: 6px 15px;
+}
+
+#authors .author .content .details h5 {
+  color: white;
+  background-color: black;
+  padding: 5px;
+  text-decoration: none;
+  cursor: context-menu;
+}
+
+#authors .author .content .details h3 a {
+  color: black;
+  text-decoration: none;
+}
+
+#authors .author .content .details .icons a {
+  text-decoration: none;
+}
+
+#authors .author .content .details .icons a i {
+  color: black;
+  margin: 0 8px;
+}
+
+#authors .author .content .details .icons a .fa-facebook-f:hover {
+  color: #3b5998;
+}
+
+#authors .author .content .details .icons a .fa-instagram:hover {
+  color: #e1306c;
+}
+
+#authors .author .content .details .icons a .fa-linkedin-in:hover {
+  color: #8d6cab;
+}
+
+#authors .author .content .details .icons a .fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.image-author {
+  height: 350px;
+  overflow: hidden;
+}
+
+.image-author img {
+  width: 100%;
+}
+
+.button {
+  border: transparent;
+  background: #a70003;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 700;
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
+}
+
+.button:hover {
+  background-color: #610002;
+}
+
+.message-area .message {
+  text-align: center;
+}
+
+.message-area .message form {
+  width: 100%;
+}
+
+.message-area .message form .full-name {
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.message-area .message form .full-name .name {
+  margin: 12px 0;
+}
+
+.message-area .message form .full-name .name input {
+  width: 100%;
+  padding: 5px 15px;
+}
+
+.message-area .message form .full-name .surname {
+  margin: 12px 0;
+}
+
+.message-area .message form .full-name .surname input {
+  width: 100%;
+  padding: 5px 15px;
+}
+
+.message-area .message form .text textarea {
+  width: 100%;
+  padding: 5px 15px;
+}
+
+.message-area .message form .submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.message-area .message form .submit button {
+  padding: 6px 15px;
+  margin-top: 20px;
+}
+
+.container .content-area {
+  margin: calc(10% + 20px) 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .content-area .details .head {
+  color: #3c3c3c;
+}
+
+.container .content-area .details .head h1 {
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+
+.container .content-area .details .head h1 a {
+  text-decoration: none;
+  color: #3c3c3c;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container .content-area .details .head h1 a:hover {
+  color: red;
+}
+
+.container .content-area .details .desc {
+  margin: 70px 0;
+}
+
+.container .content-area .details .tools {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .content-area .details .tools .more a {
+  text-decoration: none;
+  color: #3c3c3c;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container .content-area .details .tools .more a i {
+  opacity: 0;
+  -webkit-transition: .4s all ease;
+  transition: .4s all ease;
+  color: red !important;
+}
+
+.container .content-area .details .tools .more a:hover {
+  color: red;
+}
+
+.container .content-area .details .tools .more a:hover i {
+  opacity: 1;
+  -webkit-transform: translateX(10px);
+          transform: translateX(10px);
+}
+
+.container .content-area .details .tools .icons a {
+  text-decoration: none;
+}
+
+.container .content-area .details .tools .icons a i {
+  color: #555;
+  margin: 0 8px;
+}
+
+.container .content-area .details .tools .icons a .fa-facebook-f:hover {
+  color: #3b5998;
+}
+
+.container .content-area .details .tools .icons a .fa-instagram:hover {
+  color: #e1306c;
+}
+
+.container .content-area .details .tools .icons a .fa-linkedin-in:hover {
+  color: #8d6cab;
+}
+
+.container .content-area .details .tools .icons a .fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.container .img-area {
+  position: relative !important;
+}
+
+.container .img-area::before {
+  content: '';
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  width: calc(100% - 45px);
+  height: 100%;
+  background-color: transparent;
+  border: 10px solid rgba(0, 0, 0, 0.1);
+}
+
+.container .img-area a .img {
+  width: calc(100% - 25px);
+  height: 450px;
+  overflow: hidden;
+}
+
+.container .img-area a .img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: .5s all ease;
+  transition: .5s all ease;
+  width: 100%;
+  height: 100%;
+}
+
+.container .img-area a .img img:hover {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+/*# sourceMappingURL=main.css.map */

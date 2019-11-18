@@ -1,0 +1,74 @@
+footer{
+    background-color: $color-shadow;
+    #foot-section{
+        padding: 100px 0;
+        .container{
+            .foot{
+                .head{
+                    text-align: center;
+                    h1{
+                        font-size: 1.75rem;
+                    }
+                    p{
+
+                    }
+                }
+                .subscribe{
+                    form{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-wrap: wrap;
+                        .mail{
+                            width: 100%;
+                            max-width: 520px;
+                            padding: 8px;
+                            text-align: center;
+                            border: 1px solid white;
+                            border-radius: 6px;
+                                                   
+                            
+                        }
+                        .subs{
+                            width: 100%;
+                            max-width: 520px;
+                            margin-top: 10px;
+                            padding: 10px 10px;
+
+                        }
+                    }
+                }
+                .contact{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-top: 30px;
+                    a{
+                        text-decoration: none;
+                        color: $color-p;
+                        transition: all .3s ease;
+                        &:hover{
+                            color: red;
+                        }
+                        i{
+                            padding: 0 6px;
+                        }
+                        .fa-facebook-f{
+                            color: #3b5998;
+                        }
+                        .fa-instagram{
+                            color: #e1306c;
+                        }
+                        .fa-linkedin-in{
+                            color: #8d6cab;
+                        }
+                        .fa-twitter{
+                            color: #1da1f2;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}

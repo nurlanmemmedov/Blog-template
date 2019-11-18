@@ -1,0 +1,27 @@
+// #blog{
+
+
+    
+// }
+.owl-carousel{
+    .container{
+        flex-direction: row-reverse;
+        .content-area{
+            .details{
+                padding-left: 40px;
+            }
+        }
+    }
+}
+
+.load{
+    .container{
+        .load-button{
+            padding: 12px 40px;
+            margin-bottom: 100px;
+        }
+        .load-less{
+            background-color: orange;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+body{
+    color: $color-p;
+    font-size: $font-size-sans;
+    font-family: $font-sans;
+    font-weight: 400;
+    line-height: $line-height*1.75;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 !important;
+}
+h1 , h2 ,h3{
+    font-family: $font-playfair;
+    color: $color-h;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+.section-padding{
+    padding: $section-padding;
+}
+    
